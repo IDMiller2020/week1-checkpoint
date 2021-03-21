@@ -23,10 +23,10 @@ Requirements:
 * Appropriate use of HTML5 Semantic tags for the header, main and footer
 On mobile any elements sharing a row should stack
 Utilizes custom font on at least one element
-Sticky Navbar on scroll
-The Text Over Image is hidden on mobile (@media Rule)
-The Card spills out of the row on medium and larger screens
-Must use external Icon library (FontAwesome, Material Icons, etc.)
+* Sticky Navbar on scroll
+* The Text Over Image is hidden on mobile (@media Rule)
+* The Card spills out of the row on medium and larger screens
+* Must use external Icon library (FontAwesome, Material Icons, etc.)
 Specified elements order changes based on screen size
 Cards are vertically centered with the center card larger for emphasis
 Appropriate use of Margins and Padding
