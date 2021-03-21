@@ -19,8 +19,8 @@ Remember, load order is important. Pay attention to which link tag is where, in 
 reference: https://www.figma.com/file/vewXfmgWeQN9QCw9ELYdiI/Clone-Site?node-id=0%3A1
 
 Requirements:
-The page utilizes the Bootstrap Grid system to maintain a proper architecture
-Appropriate use of HTML5 Semantic tags for the header, main and footer
+* The page utilizes the Bootstrap Grid system to maintain a proper architecture
+* Appropriate use of HTML5 Semantic tags for the header, main and footer
 On mobile any elements sharing a row should stack
 Utilizes custom font on at least one element
 Sticky Navbar on scroll
