@@ -4,6 +4,7 @@
   --orange-theme: #f37121;
   --green-theme: #c0e218;
   --gray-theme: #6e7781;
+  --light-gray-theme: #b2bfcd;
 }
 
 /* font-family: 'Kanit', sans-serif; */
@@ -59,6 +60,19 @@ body {
 
 .more.button {
   padding-right: 4rem;
+}
+
+.three-cards {
+  background-color: var(--light-gray-theme);
+}
+
+.fit.align {
+  height: fit-content;
+  align-self: center;
+}
+
+.footer-top {
+  background-color: var(--gray-theme);
 }
 
 @media screen and (max-width: 700px) {
