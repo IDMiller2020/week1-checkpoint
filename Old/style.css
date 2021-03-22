@@ -1,0 +1,101 @@
+:root {
+  --blue-theme: #111d5e;
+  --mustang-red: #8f0000;
+  --orange-theme: #f37121;
+  --green-theme: #c0e218;
+  --gray-theme: #6e7781;
+  --light-gray-theme: #b2bfcd;
+}
+
+/* font-family: 'Kanit', sans-serif; */
+/* font-family: 'Patrick Hand SC', cursive; */
+
+body {
+  font-family: 'Kanit', sans-serif;
+}
+
+ .navbar {
+  background-color: var(--gray-theme);
+  font-family: 'Patrick Hand SC', cursive;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.car-banner {
+  background-image: url(./Mustan\ Red.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+
+.info-input>h6 {
+  text-shadow: 1px 1px 3px black;
+}
+
+.banner-text {
+  text-shadow: 1px 1px 3px black;
+}
+
+.info-details-box {
+  position: relative;
+  background-color: var(--gray-theme);
+}
+
+.info-links-box {
+  position: absolute;
+  bottom: -5rem;
+  right: 1rem;
+  
+}
+
+.car-pic1>img {
+  max-width: 25vw;
+}
+
+.more-info {
+  padding: 0rem 10rem;
+}
+
+.more.button {
+  padding-right: 4rem;
+}
+
+.three-cards {
+  background-color: var(--light-gray-theme);
+}
+
+.fit.align {
+  height: fit-content;
+  align-self: center;
+}
+
+.footer-top {
+  background-color: var(--gray-theme);
+}
+
+@media screen and (max-width: 700px) {
+  .car-banner {
+    min-height: 70vh;
+  }
+
+  .info-details-box {
+    min-height: 80vh;
+  }
+  .info-links-box {
+    position: unset;
+  }
+
+  .car-pic1>img {
+    max-width: 80vw;
+  }
+
+  .more-info {
+    padding: 1rem;
+  }
+
+  .more.button {
+    padding-right: 2rem;
+  }
+}
